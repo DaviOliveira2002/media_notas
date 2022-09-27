@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto1</title>
+  <script src="/main.js"></script>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Calculadora de Média</h1>
+    <h2>Descubra a média da suas notas</h2>
+    <label for="num">Digite a nota do 1ºBimestre</label>
+    <br>
+    <input type="number" name="num1" id="notaPrimeiroBimestre">
+    <br>
+    <label for="num">Digite a nota do 2ºBimestre</label>
+    <br>
+    <input type="number" name="num2" id="notaSegundoBimestre">
+    <br>
+    <label for="num">Digite a nota do 3ºBimestre</label>
+    <br>
+    <input type="number" name="num3" id="notaTerceiroBimestre">
+    <br>
+    <label for="num">Digite a nota do 4ºBimestre</label>
+    <br>
+    <input type="number" name="num4" id="notaQuartoBimestre">
+    <br>
+    <button onclick="media()">Calcular</button>
+    <div class="divResultado">
+      <h1>Sua média das notas</h1>
+      <h1 class="resposta" id="mediaAluno"></h1>
+    </div>
+  </div>
+</body>
+</html>
